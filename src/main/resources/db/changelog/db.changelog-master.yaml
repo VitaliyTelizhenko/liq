@@ -1,0 +1,12 @@
+databaseChangeLog:
+  -  changeSet:
+       id:  2
+       author:  vit
+       changes:
+         -  createTable:
+              tableName:  films
+              columns:
+                -  column:
+                     name:  film
+                     type:  varchar(255)
+
